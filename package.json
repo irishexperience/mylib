@@ -1,11 +1,14 @@
 {
-  "name": "mylib",
+  "name": "@irishexperience/mylib",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/irishexperience/mylib.git"
+  },
+  "publishConfig": {
+    "registry": "https://wn08vnph57.execute-api.us-west-1.amazonaws.com/dev/registry/"
   },
   "scripts": {
     "test": "mocha"
