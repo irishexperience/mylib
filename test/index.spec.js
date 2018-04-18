@@ -1,5 +1,5 @@
-const {expect} = require('chai')
-const {greeting} = require('../index')
+var expect = require('chai').expect
+var greeting = require('../index').greeting
 
 describe('greeting', function() {
   it('should welcome', function() {

@@ -1,3 +1,5 @@
 'use strict'
 
-exports.greeting = () => 'Welcome'
+exports.greeting = function() {
+  return 'Welcome'
+}
