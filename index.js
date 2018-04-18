@@ -1,3 +1,3 @@
 'use strict'
 
-exports.greeting = () => 'Hello World!'
+exports.greeting = () => 'Welcome'
