@@ -3,6 +3,6 @@ var greeting = require('../index').greeting
 
 describe('greeting', function() {
   it('should welcome', function() {
-    expect(greeting()).to.match(/welcome.*/i)
+    expect(greeting()).to.match(/Top.*/i)
   })
 })
