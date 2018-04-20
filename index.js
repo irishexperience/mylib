@@ -1,5 +1,5 @@
 'use strict'
 
 exports.greeting = function() {
-  return 'Welcome'
+  return 'Top of the morning'
 }
