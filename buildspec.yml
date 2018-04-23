@@ -4,6 +4,9 @@ phases:
   install:
     commands:
       - npm install
-  build:
+  pre_build:
     commands:
-      - npm test && npm publish
+      - npm test
+  post_build:
+    commands:
+      - npm publish
